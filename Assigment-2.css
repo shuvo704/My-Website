@@ -1,0 +1,159 @@
+header{
+  margin-top: 10px;
+}
+
+.menu{
+    width: 100%;
+    
+     
+}
+
+.menu ul {
+    float: right;
+    margin-right: 100px; 
+    
+}
+.menu ul li{
+   list-style: none;
+   float: right;
+   margin-right: 15px;   
+}
+.menu ul li a {
+    font-size: 16px ;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    padding: 0px 15px;
+    display: inline-block;
+    transition: .3s; 
+    
+}
+.menu ul li :last-child a{
+    padding-right: 0; 
+}
+.menu ul li a:hover{
+    color: rgb(231, 43, 74) ;
+}
+
+/*first section start*/
+.flex{
+    display: flex;
+    align-items: center;
+   
+}
+.b_content{
+    width: 50%;
+    padding-left: 15%;
+    font-size: 26px;
+}
+
+.name{
+    text-transform: uppercase;
+    margin-top: 10rem;
+    font-family: sans-serif;
+    color: #272A40;
+}
+.hight_light{
+    color: #ff8367;
+}
+.b_content p{
+    font-size: 17px;
+}
+.b_content button{
+    background-image: linear-gradient(rgb(219, 50, 50), #ff8367);
+    color: cornsilk;
+    border: none;
+    width: 140px;
+    height: 50px;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 0.25rem;
+}
+.b_content img{
+    width: 100%;
+}
+/*first section end */
+
+.project_area{
+    background-color: #dee2e7;
+}
+.lastet{
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 60px;
+    color: rgb(236, 64, 22);
+}
+.word{
+    color: black;
+}
+.all_project{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+.project{
+    width: 30%;
+    background: #FEFAEE;
+    border-radius: 0.5rem;
+    margin: 0 1.5rem;
+    margin-bottom: 100px;
+  
+}
+.project img{
+    width: 90%;
+    margin: 28px;
+}
+.p_title{
+    color: #363958;
+    padding-left: 1.25rem;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.p_discription{
+    font-size: 0.9rem;
+    padding-left:1.25rem ;
+}
+
+.work-inqury{
+    margin-top: 5rem;
+}
+.inqury_content{ 
+    background-image: url(shapes/Group1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.inqury-title{
+    color: white;
+    font-size: 2rem;
+}
+.inqury_button{
+    background-color: rgb(236, 64, 22);
+    color: rgb(231, 228, 228);
+    width: 113px;
+    height: 38px;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 25px;
+}
+
+.f_last{
+    margin-top: 80px;
+    text-align: center;
+   
+}
+.f-image img{
+    width: 2%;
+
+}
